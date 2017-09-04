@@ -22,4 +22,28 @@
 
 如果有其他的问题可以在github上提出问题或者qq联系我：1360529190， Thanks for you !
 
+---
+
+引入方法：
+
+ - 在你的Project的 build.gradle 按下面的操作配置仓库。
+```
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+
+ - 然后在你对应的Modlule内的build.gradle内按下面的方式进行引入。
+
+	
+
+```
+dependencies {
+      compile 'com.github.guohaiyang1992:OkNet:1.0'
+	}
+```
+
   
